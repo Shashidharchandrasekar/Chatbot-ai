@@ -1,0 +1,83 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "academic_programs",
+      "patterns": [
+        "What academic programs do you offer?",
+        "Tell me about your academic programs",
+        "Can you list your courses?"
+      ],
+      "responses": [
+        "We offer a variety of academic programs including Computer Science, Business Administration, and more.",
+        "Our academic programs cover a wide range of fields. You can explore courses in Computer Science, Business Administration, and many others."
+      ]
+    },
+    {
+      "tag": "admissions",
+      "patterns": [
+        "How can I apply for admission?",
+        "Tell me about the admission process",
+        "What are the admission requirements?"
+      ],
+      "responses": [
+        "To apply for admission, you can visit our Admissions page on the official website.",
+        "The admission process includes submitting an online application and fulfilling the admission requirements. You can find detailed information on our Admissions page."
+      ]
+    },
+    {
+      "tag": "campus_life",
+      "patterns": [
+        "What is campus life like?",
+        "Tell me about student activities",
+        "Can you describe the campus environment?"
+      ],
+      "responses": [
+        "Campus life is vibrant with various student activities, clubs, and events. Students can engage in sports, cultural activities, and more.",
+        "Our campus provides a dynamic environment with a mix of academic and extracurricular activities. Students participate in clubs, sports, and cultural events throughout the year."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact the college?",
+        "What is the college's contact information?",
+        "Can you provide the address and phone number?"
+      ],
+      "responses": [
+        "You can contact us through our Contact Us page on the website. The college's address is Avinashi Road, Civil Aerodrome Post, Coimbatore - 641 014, Tamilnadu, India. Phone: +91-422-2591863, 2591864.",
+        "For any inquiries, you can reach out to us using the contact information available on our Contact Us page. Our address is Avinashi Road, Civil Aerodrome Post, Coimbatore - 641 014, Tamilnadu, India. Phone: +91-422-2591863, 2591864."
+      ]
+    }
+  ]
+}
